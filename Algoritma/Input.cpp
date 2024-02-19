@@ -7,8 +7,10 @@
 // 	char nama[50];
 // 	int umur;
 
-// 	printf("Masukkan nama kamu : ");
-// 	scanf("%[^\n]" , nama);fflush(stdin); // menghapus buffer yang ada di scan f string nama
+// Fungsi printf() digunakan untuk menampilkan semua jenis data (numeric dan karakter) dan dapat digunakan untuk memformat bentuk dari tampilannya. (output)
+//  	printf("Masukkan nama kamu : ");
+//  	scanf("%[^\n]" , nama);fflush(stdin); // menghapus buffer yang ada di scan f string nama
+// scanf() Adalah suatu fungsi yang digunakan untuk pembacaan nilai yang di (input) melalui keyboard berdasarkan penentu format.
 
 // 	printf("Masukkan umur kamu : ");
 // 	scanf("%d" , &umur);fflush(stdin);
