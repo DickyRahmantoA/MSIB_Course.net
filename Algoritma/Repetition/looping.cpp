@@ -1,7 +1,7 @@
-// #include <stdio.h>
+//  #include <stdio.h>
 
-// int main()
-// {
+//  int main()
+//  {
 // Looping (Perulangan Repetisi)
 // do while , while , for
 // do while, dipakai ketika kita pasti melakukan statement/code minimal 1x.
@@ -12,7 +12,7 @@
 
 // for, dipakai ketika kita mengetahui betul kapan kita mau looping dan kapan kita mau selesai looping
 
-// int angka = 10;
+//  int angka = 4;
 
 // for(int i=0 ; i < 10 ; i++ ){  // inisialisasi angka, kondisi, increment/decrement
 // 	printf("angka : %d\n" , angka);
@@ -21,10 +21,10 @@
 //	printf("Masukkan angka : ");
 //	scanf("%d" , &angka); fflush(stdin);
 //
-//	while(angka < 10){
-//		printf("%d\n"), angka;
-//		angka++;
-//	}
+// do {
+// 	printf("saya suka belajar");
+// }
+// while(angka < 4);
 //
 //	printf("program selesai");
 
@@ -45,5 +45,5 @@
 //
 //	printf("Program selesai\n");
 
-//     return 0;
-// }
+//      return 0;
+//  }
