@@ -1,6 +1,6 @@
-#include<stdio.h>
+// #include<stdio.h>
 
-int main() {
+// int main() {
 //	// if else
 ////	if ([kondisi]) {
 ////		....
@@ -11,7 +11,7 @@ int main() {
 ////	else {
 ////		....
 ////	}
-//	
+//
 ////	int nilai = 100;
 ////	char gender = 'P';
 //	// 100 >= 90 ? TRUE
@@ -45,7 +45,7 @@ int main() {
 ////	else {
 ////		puts("Sayang sekali.");
 ////	}
-//	
+//
 //	// switch case
 ////	switch ([variable]) {
 ////		case [kondisi] :
@@ -57,7 +57,7 @@ int main() {
 ////	}
 //
 ////	if(case == 'A' || case == 'B' || case == 'C' || case == 'D') {
-////		
+////
 ////	}
 //
 //	// hanya bisa perbandingan ==
@@ -65,7 +65,7 @@ int main() {
 ////	printf("Input grade : ");
 ////	scanf("%c", &grade);
 ////	getchar();
-////	
+////
 ////	switch(grade) {
 ////		case 'A': {
 ////			puts("Baik");
@@ -84,13 +84,13 @@ int main() {
 ////			break;
 ////		}
 ////	}
-//	
-//	
+//
+//
 //	// ternary operator (?:)
 //	// [kondisi] ? [jika benar] : [jika salah];
 //	int nilai = 100;
 //	char gender = 'P';
-//	
+//
 //	if(nilai >= 90) {
 //		if(gender == 'P') {
 //			puts("Hadiahnya adalah make up.");
@@ -102,26 +102,21 @@ int main() {
 //	else {
 //		puts("Sayang sekali.");
 //	}
-//	
+//
 //	nilai >= 90 ? ( gender == 'P' ?  puts("Hadiahnya adalah make up.") : puts("Hadiahnya adalah game.") ) : puts("Sayang sekali.");
 
+// -----------------------------------------------------
+// Looping / repetition / perulangan
 
-
-
-
-
-	// -----------------------------------------------------
-	// Looping / repetition / perulangan
-	
 //	int awal = 1;
 //	int akhir = 0;
 //	int i;
-//	
+//
 //	// for
 //	// for([inisialisasi]; [kondisi]; [perubahan da) {
 ////		....
-////	}	
-//	
+////	}
+//
 //	printf("For : ");
 //	for(i=awal; i<=akhir; i++) {
 ////		if(i == 5) {
@@ -133,7 +128,7 @@ int main() {
 //		printf("%d ", i);
 //	}
 //	puts("");
-//	
+//
 //	// while
 ////	while([kondisi]) {
 ////		....
@@ -145,13 +140,13 @@ int main() {
 //		printf("%d ", i++);
 //	}
 //	puts("");
-//	
+//
 //	// do while
 ////	do {
 ////		...
 ////	} while([kondisi]);
-//	
-//	
+//
+//
 //	printf("Do-While : ");
 //	i = awal;
 //	do {
@@ -159,11 +154,4 @@ int main() {
 //		i++;
 //	} while(i <= akhir);
 //	puts("");
-
-
-
-
-
-}
-
-
+// }
