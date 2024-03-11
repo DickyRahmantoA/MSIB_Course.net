@@ -1,0 +1,57 @@
+Menu:
+1. Animal Registration
+2. Speak Command
+3. Update Animal
+4. Display All Animals
+5. Count the animal category
+6. Exit
+
+--------------------------------------------------------------------------
+
+Menu 1:
+- Input animal type. Must be between "Dog" and "Cat". If it is neither dog nor cat, prompt user to input again.
+- Input animal name. Must be between 2 - 30 characters which means cannot be empty.
+- Input animal sound. Example: Meow! Woof!
+- After all inputs are correct, save the data. Inform user that the data has been successfully saved and redirect to main menu.
+
+--------------------------------------------------------------------------
+
+Menu 2:
+- Print the animal list. If there is no animal, inform user and redirect to main menu.
+- Input animal ID (increment from 1). Validate the index must be 1 to number of inputed animal.
+- If the index is valid, print the sound of the animal.
+
+No	Type	Name	Sound
+1	Cat	Sphyx	Meow!
+2	Dog	Pome	Woof!
+
+--------------------------------------------------------------------------
+
+Menu 3:
+- Print the animal list. If there is no animal, inform user and redirect to main menu.
+- Input animal ID (increment from 1). Validate the index must be 1 to number of inputed animal.
+- If the index is valid, input animal type. Must be between "Dog" and "Cat". If it is neither dog or cat, prompt user to input again.
+- Input animal name. Must be between 2 - 30 characters which means cannot be empty.
+- Input animal sound. Example: Meow! Woof!
+- After all inputs are correct, update the data. Inform user that the data has been successfully updated and redirect to main menu.
+
+--------------------------------------------------------------------------
+
+Menu 4: 
+Retrieve all the inputed animals. 
+The data should be Type, Name, and Sound.
+You may want to create a table-like display for the data. But, just display it normally is fine.
+
+--------------------------------------------------------------------------
+
+Menu 5:
+System will display all the animal category and its counter based on registered animal.
+
+Type	Counter/Number
+Cat	1
+Dog	2
+
+--------------------------------------------------------------------------
+
+Menu 6:
+Quit the looping and stop the program.
