@@ -1,14 +1,14 @@
-// #include <stdio.h>
+ #include <stdio.h>
 
 // int recursiveExample (int x){
 //
-//     int a = 1;
+//    int a = 1;
 //
-//     x = x + a;
+//    x = x + a;
 //
-//     return recursiveExample(x);
+//    return recursiveExample(x);
 //
-// }
+//}
 
 // void changeMyNumber(int a) {
 
@@ -16,8 +16,13 @@
 
 // }
 
-// int main()
-// {
+ int main()
+ {
+ 	
+ 	int a[2][3] = {{7,8,9}, {10,11,12}};
+ 	printf("%d", a[1][2]);
+// 	recursiveExample(1);
+ 
 //    for (int i = 0; i > 5; i++)
 //    {
 //        printf("Hello");
@@ -93,4 +98,21 @@
 //  printf ("%d\n", a);
 //
 //  return 0;
+
+//int i = 10;
+//i += 12;
+//printf("%d", i);
+
+//int umur =21;
+//
+//if (umur < 17) {
+//	printf("anda masih kecil");
+//} else if ( umur >= 17 && umur < 21){
+//	printf("anda sudah remaja");
+//} else {
+//	printf("anda sudah dewasa");
+//}
+
+	return 0;
 }
+

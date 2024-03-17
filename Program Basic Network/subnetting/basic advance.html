@@ -1,0 +1,110 @@
+<!-- 
+
+    IP : 192.10.1.0/24  
+    
+    /24 itu subnet mask default
+
+    divisi training : 32 pc
+    divisi medis : 90 pc
+    divisi developer : 55 pc
+
+    Bagi 2 :
+    FLSM (fixed length subnet mask)
+    VLSM (variable length subnet mask)
+
+    1111 1111. 1111 1111. 1111 1111. 0000 0000 (/24)
+    255.255.255.0
+
+    1111 1111. 1111 1111. 1111 1111. 1000 0000 (/25)
+    255.255.255.128
+
+    1111 1111. 1111 1111 . 1111 1111. 1100 0000 (/26)
+    255.255.255.192
+
+    1111 1111
+    128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255
+
+    1000 0000
+    128
+    
+    1100 0000
+    128+64 = 192
+
+
+    IP : 192.10.1.0/24  
+    divisi training : 32 pc
+    divisi medis : 90 pc
+
+    FLSM (fixed length subnet mask) 
+
+    // kerjakan dulu divisi yang banyak membutuhkan pc
+    2^h - 2 >= PC
+    2^h >= PC + 2
+    2^h >= 92
+    128 >= 92
+
+    h = 7
+    n = 32 - 24 - 7
+
+    n = 1
+
+    IP : 192.10.1.0/25
+    subnet mask = 255.255.255.128
+
+    Training : 192.10.1.0 - 192.10.1.127
+    192.10.1.0/25 -> Network ID
+    192.10.1.1/25 - 192.10.1.126/25 usable IP
+    192.10.1.127/25 -> IP Broadcast
+
+    Medis : 192.10.1.128 - 192.10.1.255
+    192.10.1.128/25 -> Network ID
+    192.10.1.129/25 - 192.10.1.254/25 usable IP
+    192.10.1.255/25 -> IP Broadcast
+
+    IP : 192.10.1.0/24  
+    divisi training : 32 pc
+    divisi medis : 90 pc
+
+    VLSM (variable length subnet mask)
+    perhitungan nya sama seperti flsm, beda pas ngesign
+
+    1. div medis
+    2. div. training
+
+    div Medis
+    2^h - 2 >= PC
+    2^h >= PC + 2
+    2^h >= 92
+    128 >= 92
+    h = 7 
+    n = 32 - 24 - 7 = 1
+    IP Medis = 192.10.1.0/25
+    subnet mask = 255.255.255.128
+
+    div Training
+    2^h >= PC + 2
+    2^h >= 34
+    2^6 >= 34
+    64 >= 34
+    h = 6
+    n = 32 - 24 - 6 = 2
+    IP Training = 192.10.1.128/26
+    subnet mask = 255.255.255.192
+
+    IP Medis = 192.10.1.0/25 - 192.10.1.127/25
+    192.10.1.0/25 -> Network ID
+    192.10.1.1/25 - 192.10.1.126/25 usable IP
+    192.10.1.127/25 -> IP Broadcast
+
+    IP training = 192.10.1.128/26 - 192.10.1.191/26
+    192.10.1.128/26 -> Network ID
+    192.10.1.129/26 - 192.10.1.190/26 usable IP
+    192.10.1.191/26 -> IP Broadcast
+
+
+    150.172.40.0/26 
+    150.172.40.0 - 150.172.40.63
+    150.172.40.0/26 -> Network ID
+    150.172.40.1/26 - 150.172.40.62/26 usable IP
+    150.172.40.63/26 -> IP Broadcast
+ -->

@@ -1,0 +1,43 @@
+<!-- 
+
+    Static Routing CLI
+
+    subnetting
+    1. FLSM / classful subnetting
+    2. VLSM / classless subnetting
+
+    rumus rumus :
+    a. 2^index >= jumlah_komputer + 2
+    b. n = subnet_mask_max - subnet_mask_sekarang - indeks
+    c. subnet_mask_baru = subnet_mask_sekarang + n
+
+    langkah - langkah :
+    1. urutkan ruangan berdasarkan jumlah komputer
+    2. gunakan rumus a
+    3. gunakan rumus b
+    4. gunakan rumus c
+    5. alokasi IP
+        - Network Address ip pertama
+        - Broadcast Address (0+ 2^indeks -1)
+        - Usable IP Address
+        - Default gateway itu ip kedua di network address
+
+    
+        dari switch ke laptop/pc menggunakan cable straight
+        dari router ke switch menggunakan cable straight
+        dari router ke router menggunakan cross over
+    
+    syntax router
+    > en
+    > conf t
+    > int (nama kabel)
+    > Ip Address (default gateway) subnet mask
+    > no sh
+    > exit
+
+    static routing router ke router
+    > ip route (network pc tetangga+subnet mask) + ip router perantara (1 pc)
+    > io route (network addres+ subnet mask) + ip router perantara (banyak pc)
+
+
+ -->
